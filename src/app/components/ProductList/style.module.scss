@@ -1,0 +1,14 @@
+.productList {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 62px 62.25px 48px;
+  gap: 18px;
+
+  @media screen and (min-width: 1440px) {
+    & {
+      padding: 217px 255px 172px 245px;
+      gap: 31px 22px;
+    }
+  }
+}

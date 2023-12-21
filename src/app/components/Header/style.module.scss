@@ -1,0 +1,47 @@
+.header {
+  background-color: #0f52ba;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 23px 0px 20px;
+  height: 48px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+
+  > h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px; /* 59.375% */
+
+    > small {
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 19px; /* 118.75% */
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    & {
+      height: 101px;
+
+      padding: 0px 88px 0px 65px;
+
+      > h1 {
+        color: #fff;
+        font-size: 40px;
+
+        > small {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.cartButton {
+  width: 52px;
+  height: 26px;
+  flex-shrink: 0;
+
+  border-radius: 8px;
+  background: #fff;
+
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+
+  @media screen and (min-width: 1440px) {
+    & {
+      width: 90px;
+      height: 45px;
+      font-size: 18px;
+
+      > svg {
+        width: 19.008px;
+        height: 18px;
+      }
+    }
+  }
+}
