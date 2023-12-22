@@ -22,4 +22,5 @@ button {
   cursor: pointer;
   border: none;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }

@@ -1,9 +1,11 @@
 .productList {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(218px, 250px));
   width: 100%;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
   padding: 62px 62.25px 48px;
   gap: 18px;
+  justify-content: center;
 
   @media screen and (min-width: 1440px) {
     & {

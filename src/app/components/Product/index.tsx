@@ -16,7 +16,7 @@ export default function Product({ product }: Props) {
     currency: 'BRL',
     maximumSignificantDigits: 2,
   })
-    .format(parseInt(product.price))
+    .format(product.price)
     .replace(/\s/, '');
 
   const cart = useContext(CartContext);

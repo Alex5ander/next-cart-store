@@ -18,7 +18,7 @@ export default function CartProduct({
   const price = Intl.NumberFormat('pt-br', {
     currency: 'BRL',
     style: 'currency',
-  }).format(Number(product.price) * product.amount);
+  }).format(product.price * product.amount);
   return (
     <div className={style.cartProduct}>
       <button onClick={removeAll} className={style.remove}>

@@ -7,7 +7,7 @@ export interface IProduct {
   brand: string;
   photo: string;
   description: string;
-  price: string;
+  price: number;
 }
 
 interface IGetProducts {
